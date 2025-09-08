@@ -44,14 +44,14 @@ section {
     font-size: .9rem;
 }
 
-ul {
-    margin: 10px 20px;
-}
-
 section p {
     margin: 10px;
 }
 
+ul {
+    margin: 10px 20px 10px 20px;
+}
+
 footer {
-    font-size: .90rem;
+    font-size: .9rem;
 }
