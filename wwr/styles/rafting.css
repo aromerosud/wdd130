@@ -33,7 +33,7 @@ h1, h2 {
   color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav, p, section {
   margin: 16px;
   padding: 8px;
 }
@@ -63,9 +63,25 @@ h1 {
   color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
 
+article {
+  position: absolute;
+  top: 80px;
+  width: 800px;
+  margin: 20px;
+  text-align: left;
+  background-color: var(--accent2-color);
+  color: #000; /* white text - make sure there is enough contrast with the background-color */
+}
+
 .hero article img {
   float: right;
   width: 125px;
+  margin: 10px;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
 }
 
 
