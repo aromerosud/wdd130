@@ -124,6 +124,60 @@ article {
   margin: 10px;
 }
 
+.content{
+  position: relative;
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  align-items: center;
+  margin: 10px;
+  padding: 20px 0px;
+}
+
+.adventure{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  margin: 10px;
+  padding: 20px 0px;
+}
+
+.content p {
+  margin: 5px;
+}
+
+.content img {
+  width: 225px;
+  margin: 10px;
+  justify-self: center;
+}
+
+.adventure figure{
+  justify-self: center;
+  margin: 20px 10px;
+}
+
+.adventure figure img {
+  width: 140px;
+  height: 100px;
+  display: block;
+}
+
+.adventure figure figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  display: block;
+}
+
+
+
+h2{
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  padding: 0px;
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
