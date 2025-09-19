@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #055a05; /* forest green */
+  --primary-color: #eee; /* forest green */
   --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #264653; /* dark slate blue */
   --accent2-color: #e9c46a; /* light golden yellow */
+  --accent3-color: navy; /* blue */
+  --accent4-color: tomato; /* blue */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -16,6 +18,48 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+    padding: 10px;
+    color: var(--accent3-color);
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: var(--accent3-color);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.navigation a:hover {
+    color: steelblue;
+    text-decoration: underline;
 }
 
 body {
@@ -30,7 +74,7 @@ header, main, footer {
 
 h1, h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
 
 nav, p, section {
@@ -40,6 +84,7 @@ nav, p, section {
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -79,9 +124,34 @@ article {
   margin: 10px;
 }
 
-footer img {
-    width: 100px;
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+footer p {
+  grid-column: 2 / 5;
+  text-align: center;
+  color: var(--accent3-color);
+}
+
+footer nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+footer img {    
+    width: 40px;
     height: auto;
+    display: block;
 }
 
 
