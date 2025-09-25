@@ -160,9 +160,10 @@ iframe {
 }
 
 
-.info1 h2, h3 {
+.info1 h1, h3 {
   position:relative;
   text-align:center;
+  opacity: 1;
   top: 0px;
   width: 100%;
   padding: 0px;  
