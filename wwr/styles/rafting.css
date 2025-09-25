@@ -124,6 +124,52 @@ article {
   margin: 10px;
 }
 
+.info1 {
+  position: relative;
+  align-items: center;
+  margin: 10px;
+  padding: 10px 0px;  
+  background-color: var(--accent1-color);
+}
+
+.info2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin: 10px;
+  padding: 0px 0px;
+}
+
+.map{
+  grid-column: 1/2;
+  height: 100%;
+  margin: .5rem;
+  padding: .5rem;
+  border-radius: 0.5rem;  
+}
+
+iframe {
+  border: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.info2 p {
+  margin: 5px;
+}
+
+
+.info1 h2, h3 {
+  position:relative;
+  text-align:center;
+  top: 0px;
+  width: 100%;
+  padding: 0px;  
+  color: #fff; /* white text - make sure there is enough contrast with the background-color */
+}
+
+
 .content{
   position: relative;
   display: grid;
@@ -139,6 +185,17 @@ article {
   grid-template-columns: repeat(5, 20%);
   margin: 10px;
   padding: 20px 0px;
+}
+
+.serve{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  margin: 10px;
+  padding: 20px 0px 0px 0px;
+  justify-content: space-around;
+  background-color: #eee;
+  border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 .content p {
@@ -168,12 +225,28 @@ article {
   display: block;
 }
 
+.serve figure{
+  justify-self: center;
+  margin: 20px 10px;
+}
 
+.serve figure img {
+  width: 160px;
+  height: 100px;
+  display: block;
+  padding: 0px 3px 0px
+}
+
+.serve figure figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  display: block;
+}
 
 h2{
   position: absolute;
   text-align: center;
-  top: 0px;
+  top: 5px;
   width: 100%;
   padding: 0px;
 }
@@ -207,6 +280,79 @@ footer img {
     height: auto;
     display: block;
 }
+
+.box {
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.box div {
+  border: none;
+}
+
+.box label {
+  font-size: 0.9rem;
+}
+
+.item-form {
+    padding: 0;
+}
+
+input, button {
+    padding: .75rem;
+    width: 250px;
+}
+
+textarea {
+  padding: .75rem;
+  width: 100%;
+}
+
+.sub-form {
+  display: grid;
+  grid-template-columns: 100px 250px;
+  align-items: center;
+}
+
+
+.options {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.field-pick {
+  width: 15px;
+  margin: 5px;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column3 {
+  grid-template-columns: 30% 40% 30%;
+}
+
+button {
+  background-color: var(--accent3-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  width: 100%;
+  grid-column: 2/3;
+}
+
+button:hover {
+  background-color: steelblue;
+}
+
+
 
 
 
