@@ -109,7 +109,7 @@ h1 {
   color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
 
-article {
+.hero div {
   position: absolute;
   top: 80px;
   width: 800px;
@@ -119,7 +119,7 @@ article {
   color: #000; /* white text - make sure there is enough contrast with the background-color */
 }
 
-.hero article img {
+.hero div img {
   float: right;
   width: 125px;
   margin: 10px;
