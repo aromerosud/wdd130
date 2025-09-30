@@ -358,15 +358,20 @@ button:hover {
   position: absolute;
   top: 100px;
   width: 400px;
-  margin: 20px;
+  margin: 10px;
   text-align: left;
   background-color: #eee;
   opacity: 0.9;
   color: #000; /* white text - make sure there is enough contrast with the background-color */
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   font-family: sans-serif;
   font-style: italic;
+}
+
+.hero-text h4 {
+  color: var(--accent1-color);
+  margin: 10px;  
 }
 
 .info-home {
@@ -407,13 +412,7 @@ button:hover {
   align-self: center;
 }
 
-.action-trip a {
-  text-decoration: none;  
-  grid-column: 2/3;
-}
-
-
-.action-trip a button {
+.action-trip button {
   margin: 10px;  
   background-color: #6e0303;
 }
@@ -600,9 +599,10 @@ button:hover {
   color: #fff;
 }
 
-.diff-trips h3 {
+.diff-trips h3{
   color: #fff;
 }
+
 
 
 
