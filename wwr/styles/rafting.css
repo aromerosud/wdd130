@@ -353,6 +353,125 @@ button:hover {
   background-color: steelblue;
 }
 
+.hero-text {
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  margin: 20px;
+  text-align: left;
+  background-color: #eee;
+  opacity: 0.9;
+  color: #000; /* white text - make sure there is enough contrast with the background-color */
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.info-home {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.action-trip {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  background-color: #1b7fcc;
+  margin: 0px 5px 0px 0px;
+  padding: .1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.action-trip h2 {
+  position: relative;
+  grid-column: 1/4;
+  padding: 10px;
+  color: #fff;
+}
+
+.action-trip ul {
+  position: relative;
+  grid-column: 1/3;
+  line-height: 1.6;
+  margin: 10px;
+  padding-left: 1.2rem; 
+}
+
+.action-trip img {
+  width: 130px;
+  justify-self: center;
+  align-self: center;
+}
+
+.action-trip button {
+  margin: 10px;  
+  background-color: #f0ad4e;
+}
+
+.action-trip button:hover {
+  background-color: #eea236;
+}
+
+.box-home {
+    margin: 0px 0px 0px 5px;
+    padding: .1rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+.box-home h2 {
+  position: relative;
+  padding: 10px;
+  grid-column: 1/4;
+}
+
+.box-home p {
+  margin: 0px;
+}
+
+.box-home div {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.box-home div input {
+  width: auto;
+}
+
+.box-home div button {
+  width: 120px;  
+}
+
+.home-adventure{
+  position: relative;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  margin: 10px;
+  padding: 0px 0px;
+}
+
+.home-adventure figure{
+  justify-self: center;
+  margin: 10px;
+}
+
+.home-adventure figure img {
+  width: 240px;
+  height: 200px;
+  display: block;
+  justify-self: center;
+}
+ 
+.home-adventure figure figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  display: block;
+  margin: 5px;
+}
+
 
 
 
