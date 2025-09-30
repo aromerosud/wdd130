@@ -378,7 +378,7 @@ button:hover {
 .action-trip {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  background-color: #1b7fcc;
+  background-color: #202865;
   margin: 0px 5px 0px 0px;
   padding: .1rem;
   border-radius: 0.5rem;
@@ -408,11 +408,11 @@ button:hover {
 
 .action-trip button {
   margin: 10px;  
-  background-color: #f0ad4e;
+  background-color: #6e0303;
 }
 
 .action-trip button:hover {
-  background-color: #eea236;
+  background-color: #807c7c;
 }
 
 .box-home {
